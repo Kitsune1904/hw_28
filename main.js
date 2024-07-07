@@ -7,6 +7,7 @@ const postHolder = document.getElementById("postHolder");
 const commHolder = document.getElementById("commHolder");
 
 findBtn.addEventListener("click", () => {
+  //check is it ok
   if (!idSearch.value) {
     alert("Fild can't be empty");
     throw new Error("Fild can't be empty");
